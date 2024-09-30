@@ -17,6 +17,8 @@ public class Calculator
 //        Calculator.addStatic(5,6);
         int sum = add(200, 500);
         System.out.println(sum);
+        int div = divide(1000, 400);
+        System.out.println(div);
 
 
         System.out.println("Enter the first number: ");
