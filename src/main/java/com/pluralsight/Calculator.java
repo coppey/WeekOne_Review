@@ -6,7 +6,7 @@ public class Calculator
 {
     public static void main(String[] args)
     {
-
+        Scanner sc = new Scanner(System.in);
 //        //Invoking or calling (Instance)
 //        Calculator calc = new Calculator();
 //        calc.addInstance(1,2);
@@ -15,8 +15,10 @@ public class Calculator
 //        addStatic(3,4);
 //        //Outside the class
 //        Calculator.addStatic(5,6);
+        int sum = add(200, 500);
+        System.out.println(sum);
 
-        Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter the first number: ");
         int a = sc.nextInt();
         System.out.println("Enter the second number: ");
